@@ -13,7 +13,7 @@ Extension này hiện tại chỉ sử dụng được cho Chrome hoặc các Br
 2. Vào trang `"chrome://extensions/"` trên Chrome, bật chế độ dành cho nhà phát triển.
 3. Nhấn vào `"Tải tiện ích đã giải nén"`, sau đó chọn vào foder vừa giải nén ở bước 1.
 
-**Video hướng dẫn:** https://www.youtube.com/watch?v=AR0VPF7RdOw&feature=youtu.be
+**Video hướng dẫn:** https://www.youtube.com/watch?v=f05Mr296Lho
 
 
 # Cách sử dụng
