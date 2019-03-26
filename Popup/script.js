@@ -54,9 +54,8 @@ function save()
 function update(data) 
 {
 	localStorage.setItem("font-changer", JSON.stringify(data));
-	chrome.tabs.query({url:"https://lms.funix.edu.vn/*"}, function(tabs){
+	chrome.tabs.query({url:["https://lms.funix.edu.vn/*","https://lagunita.stanford.edu/*"]}, function(tabs){
 		tabs.forEach( function(element) {
-			console.log("run");
 			chrome.tabs.sendMessage(element.id, data);
 		});
 	});
@@ -65,9 +64,8 @@ function update(data)
 function listen()
 {
 	let data = JSON.parse(localStorage.getItem("font-changer"));	
-	chrome.tabs.query({url:"https://lms.funix.edu.vn/*"}, function(tabs){
+	chrome.tabs.query({url:["https://lms.funix.edu.vn/*","https://lagunita.stanford.edu/*"]}, function(tabs){
 		tabs.forEach( function(element) {
-			console.log("run");
 			chrome.tabs.sendMessage(element.id, data);
 		});
 	});
