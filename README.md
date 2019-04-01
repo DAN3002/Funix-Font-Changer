@@ -34,12 +34,12 @@ Extension này hiện tại chỉ sử dụng được cho Chrome hoặc các Br
 * Chrome API.
 
 # Demo
-![](Demo\Demo1.jpg)
-![](Demo\Demo2.jpg)
-![](Demo\Demo3.jpg)
+![](https://github.com/DAN3002/Funix-Font-Changer/blob/master/Demo/Demo1.jpg)
+![](https://github.com/DAN3002/Funix-Font-Changer/blob/master/Demo/Demo2.jpg)
+![](https://github.com/DAN3002/Funix-Font-Changer/blob/master/Demo/Demo3.jpg)
 
 # Log
-Bạn có thể xem các sửa đổi của các version tại đây: 
+Bạn có thể xem các sửa đổi của các version tại [đây](https://github.com/DAN3002/Funix-Font-Changer/blob/master/Change%20Log.md)
 
 # Tác giả
 D.A.N_3002
