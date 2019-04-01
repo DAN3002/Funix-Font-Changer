@@ -1,15 +1,22 @@
   {
     "name": "FUXiX Font Changer",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Custom setting for subtitle in LMS",
     "manifest_version": 2,
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
 	"content_scripts": 
 	[
 	   {
-	     "matches": ["https://lms.funix.edu.vn/*", "https://lagunita.stanford.edu/*"],
+	     "matches": [
+	     	"https://lms.funix.edu.vn/*", 
+	     	"https://lagunita.stanford.edu/*",
+	     	"https://amara.org/*"
+	     ],
 	     "js": [
-	     	"JS/jquery-3.3.1.min.js",	     	
-	     	"JS/content.js"     	  	
+	     	"JS/jquery-3.3.1.min.js",
+	     	"JS/content.js",	     	
+	     	"JS/lms.js",
+	     	"JS/amara.js"    	  	
 	     ]
 	   }
 	],

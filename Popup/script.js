@@ -1,3 +1,12 @@
+var tabQuery =
+{
+	url:[
+		"https://lms.funix.edu.vn/*",
+		"https://lagunita.stanford.edu/*",
+	    "https://amara.org/*"
+	]
+};
+
 $(document).ready(function() {
 	$("#save").click(function() {
 		save();
@@ -54,17 +63,7 @@ function save()
 function update(data) 
 {
 	localStorage.setItem("font-changer", JSON.stringify(data));
-	chrome.tabs.query({url:["https://lms.funix.edu.vn/*","https://lagunita.stanford.edu/*"]}, function(tabs){
-		tabs.forEach( function(element) {
-			chrome.tabs.sendMessage(element.id, data);
-		});
-	});
-}
-
-function listen()
-{
-	let data = JSON.parse(localStorage.getItem("font-changer"));	
-	chrome.tabs.query({url:["https://lms.funix.edu.vn/*","https://lagunita.stanford.edu/*"]}, function(tabs){
+	chrome.tabs.query(tabQuery, function(tabs){
 		tabs.forEach( function(element) {
 			chrome.tabs.sendMessage(element.id, data);
 		});

@@ -9,7 +9,7 @@ Extension này hiện tại chỉ sử dụng được cho Chrome hoặc các Br
 
 # Cách cài đặt
 
-1. Tải về file `Font-Changer.rar` tại link [này](https://github.com/DAN3002/Funix-Font-Changer/releases/tag/1.0) và giải nén.
+1. Tải về phiên bản `Font-Changer.rar` mới nhất(`1.2`) tại link [này](https://github.com/DAN3002/Funix-Font-Changer/releases) và giải nén.
 2. Vào trang `"chrome://extensions/"` trên Chrome, bật chế độ dành cho nhà phát triển.
 3. Nhấn vào `"Tải tiện ích đã giải nén"`, sau đó chọn vào foder vừa giải nén ở bước 1.
 
@@ -26,12 +26,20 @@ Extension này hiện tại chỉ sử dụng được cho Chrome hoặc các Br
 
 * Chỉ có thể sử dụng các font có ở trong máy tính của bạn. Chưa áp dụng các font online.
 * Font Size được tính theo đơn vị `px`.
-* Hỗ trợ 4 loại mã màu: Tên màu; mã Hex, mã RBG, mã RBGA.
+* Hỗ trợ 4 loại mã màu: Tên màu; mã Hex, mã RBG, mã RBGA. 
 
 # Được xây dựng với
 
 * Jquery.
 * Chrome API.
+
+# Demo
+![](Demo\Demo1.jpg)
+![](Demo\Demo2.jpg)
+![](Demo\Demo3.jpg)
+
+# Log
+Bạn có thể xem các sửa đổi của các version tại đây: 
 
 # Tác giả
 D.A.N_3002
