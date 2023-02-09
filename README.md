@@ -1,47 +1,55 @@
 # Funix-Font-Changer
-Extension cho Chrome dùng để thay đổi giao diện cho subtitle trên trang [LMS](https://lms.funix.edu.vn/) của Funix.
+A Chrome Extension that allows you to change the appearance of subtitles on the Funix LMS page. With this extension, you can easily customize the font, size, and color of subtitles to fit your personal preferences.
 
-# Lưu ý cài đặt
-Extension này hiện tại chỉ sử dụng được cho Chrome hoặc các Browser sử dụng nhân Chromium. Để sử dụng trên các Browser khác thì hãy làm theo hướng dẫn của các link sau:
+## Features
 
-* [FireFox](https://www.thewindowsclub.com/install-chrome-extensions-on-firefox)
-* [Opera](https://www.techzim.co.zw/2018/09/heres-how-you-can-install-google-chrome-extensions-in-the-opera-browser/)
+- Customizable font, size, and color of subtitles
+- Easy to install and use
+- Works on the Funix LMS page only
 
-# Cách cài đặt
+## Getting Started
 
-1. Tải về phiên bản `Font-Changer.rar` mới nhất(`1.2`) tại link [này](https://github.com/DAN3002/Funix-Font-Changer/releases) và giải nén.
-2. Vào trang `"chrome://extensions/"` trên Chrome, bật chế độ dành cho nhà phát triển.
-3. Nhấn vào `"Tải tiện ích đã giải nén"`, sau đó chọn vào foder vừa giải nén ở bước 1.
+These instructions will help you install and use the Chrome Extension on your Google Chrome browser.
 
-**Video hướng dẫn:** https://www.youtube.com/watch?v=f05Mr296Lho
+### Installing
 
+1. Download the repository as a .zip file
+2. Open Google Chrome and go to `chrome://extensions`
+3. Enable the developer mode by clicking the toggle switch in the top right corner
+4. Click on "Load Unpacked" and select the extracted folder
+5. The extension should now be installed and appear in your Chrome browser
 
-# Cách sử dụng
+## Usage
 
-1. Nhấn vào biểu tượng của extension trên thanh công cụ. 
-2. Thay đổi các cài đặt theo ý thích rồi nhấn `Save`.
-3. Tải lại trang web LMS để áp dụng thay đổi.
+1. Go to the Funix LMS page
+2. Click on the extension icon in the top right corner of your Chrome browser
+3. Customize the font, size, and color of subtitles as desired
+4. The changes will be reflected on the Funix LMS page
 
-## Lưu ý
+## Built With
 
-* Chỉ có thể sử dụng các font có ở trong máy tính của bạn. Chưa áp dụng các font online.
-* Font Size được tính theo đơn vị `px`.
-* Hỗ trợ 4 loại mã màu: Tên màu; mã Hex, mã RBG, mã RBGA. 
-
-# Được xây dựng với
-
-* Jquery.
-* Chrome API.
+- JavaScript
+- CSS
+- HTML
+- Chrome Extension API
 
 # Demo
+
 ![](https://github.com/DAN3002/Funix-Font-Changer/blob/master/Demo/Demo1.jpg)
 ![](https://github.com/DAN3002/Funix-Font-Changer/blob/master/Demo/Demo2.jpg)
 ![](https://github.com/DAN3002/Funix-Font-Changer/blob/master/Demo/Demo3.jpg)
 
-# Log
-Bạn có thể xem các sửa đổi của các version tại [đây](https://github.com/DAN3002/Funix-Font-Changer/blob/master/Change%20Log.md)
+## Log
+You can view the revisions of the versions [here](https://github.com/DAN3002/Funix-Font-Changer/blob/master/Change%20Log.md).
 
-# Tác giả
-D.A.N_3002
-* Youtube Channel: https://www.youtube.com/channel/UCp8h46TWMs1qjeepv_QWJkA
-* Gmail: dinhanh300229@gmail.com
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
